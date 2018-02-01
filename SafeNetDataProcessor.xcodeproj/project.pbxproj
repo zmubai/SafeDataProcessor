@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB48755320236F4300A245F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB48755220236F4300A245F4 /* AppDelegate.m */; };
+		DB48755620236F4300A245F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB48755520236F4300A245F4 /* ViewController.m */; };
+		DB48755920236F4300A245F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB48755720236F4300A245F4 /* Main.storyboard */; };
+		DB48755B20236F4300A245F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB48755A20236F4300A245F4 /* Assets.xcassets */; };
+		DB48755E20236F4300A245F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB48755C20236F4300A245F4 /* LaunchScreen.storyboard */; };
+		DB48756120236F4300A245F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB48756020236F4300A245F4 /* main.m */; };
+		DB48756B20236F4300A245F4 /* SafeNetDataProcessorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB48756A20236F4300A245F4 /* SafeNetDataProcessorTests.m */; };
+		DB48757620236F4300A245F4 /* SafeNetDataProcessorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB48757520236F4300A245F4 /* SafeNetDataProcessorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB48756720236F4300A245F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB48754620236F4300A245F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB48754D20236F4300A245F4;
+			remoteInfo = SafeNetDataProcessor;
+		};
+		DB48757220236F4300A245F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB48754620236F4300A245F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB48754D20236F4300A245F4;
+			remoteInfo = SafeNetDataProcessor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB48754E20236F4300A245F4 /* SafeNetDataProcessor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeNetDataProcessor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB48755120236F4300A245F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB48755220236F4300A245F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB48755420236F4300A245F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB48755520236F4300A245F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB48755820236F4300A245F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB48755A20236F4300A245F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB48755D20236F4300A245F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB48755F20236F4300A245F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB48756020236F4300A245F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB48756620236F4300A245F4 /* SafeNetDataProcessorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeNetDataProcessorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB48756A20236F4300A245F4 /* SafeNetDataProcessorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeNetDataProcessorTests.m; sourceTree = "<group>"; };
+		DB48756C20236F4300A245F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB48757120236F4300A245F4 /* SafeNetDataProcessorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeNetDataProcessorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB48757520236F4300A245F4 /* SafeNetDataProcessorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeNetDataProcessorUITests.m; sourceTree = "<group>"; };
+		DB48757720236F4300A245F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB48754B20236F4300A245F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB48756320236F4300A245F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB48756E20236F4300A245F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB48754520236F4300A245F4 = {
+			isa = PBXGroup;
+			children = (
+				DB48755020236F4300A245F4 /* SafeNetDataProcessor */,
+				DB48756920236F4300A245F4 /* SafeNetDataProcessorTests */,
+				DB48757420236F4300A245F4 /* SafeNetDataProcessorUITests */,
+				DB48754F20236F4300A245F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB48754F20236F4300A245F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB48754E20236F4300A245F4 /* SafeNetDataProcessor.app */,
+				DB48756620236F4300A245F4 /* SafeNetDataProcessorTests.xctest */,
+				DB48757120236F4300A245F4 /* SafeNetDataProcessorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB48755020236F4300A245F4 /* SafeNetDataProcessor */ = {
+			isa = PBXGroup;
+			children = (
+				DB48755120236F4300A245F4 /* AppDelegate.h */,
+				DB48755220236F4300A245F4 /* AppDelegate.m */,
+				DB48755420236F4300A245F4 /* ViewController.h */,
+				DB48755520236F4300A245F4 /* ViewController.m */,
+				DB48755720236F4300A245F4 /* Main.storyboard */,
+				DB48755A20236F4300A245F4 /* Assets.xcassets */,
+				DB48755C20236F4300A245F4 /* LaunchScreen.storyboard */,
+				DB48755F20236F4300A245F4 /* Info.plist */,
+				DB48756020236F4300A245F4 /* main.m */,
+			);
+			path = SafeNetDataProcessor;
+			sourceTree = "<group>";
+		};
+		DB48756920236F4300A245F4 /* SafeNetDataProcessorTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB48756A20236F4300A245F4 /* SafeNetDataProcessorTests.m */,
+				DB48756C20236F4300A245F4 /* Info.plist */,
+			);
+			path = SafeNetDataProcessorTests;
+			sourceTree = "<group>";
+		};
+		DB48757420236F4300A245F4 /* SafeNetDataProcessorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB48757520236F4300A245F4 /* SafeNetDataProcessorUITests.m */,
+				DB48757720236F4300A245F4 /* Info.plist */,
+			);
+			path = SafeNetDataProcessorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB48754D20236F4300A245F4 /* SafeNetDataProcessor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB48757A20236F4300A245F4 /* Build configuration list for PBXNativeTarget "SafeNetDataProcessor" */;
+			buildPhases = (
+				DB48754A20236F4300A245F4 /* Sources */,
+				DB48754B20236F4300A245F4 /* Frameworks */,
+				DB48754C20236F4300A245F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafeNetDataProcessor;
+			productName = SafeNetDataProcessor;
+			productReference = DB48754E20236F4300A245F4 /* SafeNetDataProcessor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB48756520236F4300A245F4 /* SafeNetDataProcessorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB48757D20236F4300A245F4 /* Build configuration list for PBXNativeTarget "SafeNetDataProcessorTests" */;
+			buildPhases = (
+				DB48756220236F4300A245F4 /* Sources */,
+				DB48756320236F4300A245F4 /* Frameworks */,
+				DB48756420236F4300A245F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB48756820236F4300A245F4 /* PBXTargetDependency */,
+			);
+			name = SafeNetDataProcessorTests;
+			productName = SafeNetDataProcessorTests;
+			productReference = DB48756620236F4300A245F4 /* SafeNetDataProcessorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB48757020236F4300A245F4 /* SafeNetDataProcessorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB48758020236F4300A245F4 /* Build configuration list for PBXNativeTarget "SafeNetDataProcessorUITests" */;
+			buildPhases = (
+				DB48756D20236F4300A245F4 /* Sources */,
+				DB48756E20236F4300A245F4 /* Frameworks */,
+				DB48756F20236F4300A245F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB48757320236F4300A245F4 /* PBXTargetDependency */,
+			);
+			name = SafeNetDataProcessorUITests;
+			productName = SafeNetDataProcessorUITests;
+			productReference = DB48757120236F4300A245F4 /* SafeNetDataProcessorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB48754620236F4300A245F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = zengbailiang;
+				TargetAttributes = {
+					DB48754D20236F4300A245F4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DB48756520236F4300A245F4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB48754D20236F4300A245F4;
+					};
+					DB48757020236F4300A245F4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB48754D20236F4300A245F4;
+					};
+				};
+			};
+			buildConfigurationList = DB48754920236F4300A245F4 /* Build configuration list for PBXProject "SafeNetDataProcessor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB48754520236F4300A245F4;
+			productRefGroup = DB48754F20236F4300A245F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB48754D20236F4300A245F4 /* SafeNetDataProcessor */,
+				DB48756520236F4300A245F4 /* SafeNetDataProcessorTests */,
+				DB48757020236F4300A245F4 /* SafeNetDataProcessorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB48754C20236F4300A245F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB48755E20236F4300A245F4 /* LaunchScreen.storyboard in Resources */,
+				DB48755B20236F4300A245F4 /* Assets.xcassets in Resources */,
+				DB48755920236F4300A245F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB48756420236F4300A245F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB48756F20236F4300A245F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB48754A20236F4300A245F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB48755620236F4300A245F4 /* ViewController.m in Sources */,
+				DB48756120236F4300A245F4 /* main.m in Sources */,
+				DB48755320236F4300A245F4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB48756220236F4300A245F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB48756B20236F4300A245F4 /* SafeNetDataProcessorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB48756D20236F4300A245F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB48757620236F4300A245F4 /* SafeNetDataProcessorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB48756820236F4300A245F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB48754D20236F4300A245F4 /* SafeNetDataProcessor */;
+			targetProxy = DB48756720236F4300A245F4 /* PBXContainerItemProxy */;
+		};
+		DB48757320236F4300A245F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB48754D20236F4300A245F4 /* SafeNetDataProcessor */;
+			targetProxy = DB48757220236F4300A245F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB48755720236F4300A245F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB48755820236F4300A245F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB48755C20236F4300A245F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB48755D20236F4300A245F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB48757820236F4300A245F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB48757920236F4300A245F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB48757B20236F4300A245F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SafeNetDataProcessor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dogdog.com.SafeNetDataProcessor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB48757C20236F4300A245F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SafeNetDataProcessor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dogdog.com.SafeNetDataProcessor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB48757E20236F4300A245F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SafeNetDataProcessorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dogdog.com.SafeNetDataProcessorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafeNetDataProcessor.app/SafeNetDataProcessor";
+			};
+			name = Debug;
+		};
+		DB48757F20236F4300A245F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SafeNetDataProcessorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dogdog.com.SafeNetDataProcessorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafeNetDataProcessor.app/SafeNetDataProcessor";
+			};
+			name = Release;
+		};
+		DB48758120236F4300A245F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SafeNetDataProcessorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dogdog.com.SafeNetDataProcessorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SafeNetDataProcessor;
+			};
+			name = Debug;
+		};
+		DB48758220236F4300A245F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SafeNetDataProcessorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dogdog.com.SafeNetDataProcessorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SafeNetDataProcessor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB48754920236F4300A245F4 /* Build configuration list for PBXProject "SafeNetDataProcessor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB48757820236F4300A245F4 /* Debug */,
+				DB48757920236F4300A245F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB48757A20236F4300A245F4 /* Build configuration list for PBXNativeTarget "SafeNetDataProcessor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB48757B20236F4300A245F4 /* Debug */,
+				DB48757C20236F4300A245F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB48757D20236F4300A245F4 /* Build configuration list for PBXNativeTarget "SafeNetDataProcessorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB48757E20236F4300A245F4 /* Debug */,
+				DB48757F20236F4300A245F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB48758020236F4300A245F4 /* Build configuration list for PBXNativeTarget "SafeNetDataProcessorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB48758120236F4300A245F4 /* Debug */,
+				DB48758220236F4300A245F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB48754620236F4300A245F4 /* Project object */;
+}
