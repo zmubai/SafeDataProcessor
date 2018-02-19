@@ -15,6 +15,10 @@
 		DB48756120236F4300A245F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB48756020236F4300A245F4 /* main.m */; };
 		DB48756B20236F4300A245F4 /* SafeNetDataProcessorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB48756A20236F4300A245F4 /* SafeNetDataProcessorTests.m */; };
 		DB48757620236F4300A245F4 /* SafeNetDataProcessorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB48757520236F4300A245F4 /* SafeNetDataProcessorUITests.m */; };
+		DB48758520236F6D00A245F4 /* SafeDataProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = DB48758420236F6D00A245F4 /* SafeDataProcessor.m */; };
+		DB4C493F2031129200A52D98 /* json.txt in Resources */ = {isa = PBXBuildFile; fileRef = DB4C493E2031129200A52D98 /* json.txt */; };
+		DB4C49422031223300A52D98 /* CheckResponseData.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4C49412031223300A52D98 /* CheckResponseData.m */; };
+		DB9FD3F020241EEB0075677A /* NSObject+SafeData.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9FD3EF20241EEB0075677A /* NSObject+SafeData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,13 @@
 		DB48757120236F4300A245F4 /* SafeNetDataProcessorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeNetDataProcessorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB48757520236F4300A245F4 /* SafeNetDataProcessorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeNetDataProcessorUITests.m; sourceTree = "<group>"; };
 		DB48757720236F4300A245F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB48758320236F6D00A245F4 /* SafeDataProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafeDataProcessor.h; sourceTree = "<group>"; };
+		DB48758420236F6D00A245F4 /* SafeDataProcessor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeDataProcessor.m; sourceTree = "<group>"; };
+		DB4C493E2031129200A52D98 /* json.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = json.txt; sourceTree = "<group>"; };
+		DB4C49402031223300A52D98 /* CheckResponseData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckResponseData.h; sourceTree = "<group>"; };
+		DB4C49412031223300A52D98 /* CheckResponseData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckResponseData.m; sourceTree = "<group>"; };
+		DB9FD3EE20241EEB0075677A /* NSObject+SafeData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SafeData.h"; sourceTree = "<group>"; };
+		DB9FD3EF20241EEB0075677A /* NSObject+SafeData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SafeData.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +116,17 @@
 				DB48755220236F4300A245F4 /* AppDelegate.m */,
 				DB48755420236F4300A245F4 /* ViewController.h */,
 				DB48755520236F4300A245F4 /* ViewController.m */,
+				DB48758320236F6D00A245F4 /* SafeDataProcessor.h */,
+				DB48758420236F6D00A245F4 /* SafeDataProcessor.m */,
+				DB4C49402031223300A52D98 /* CheckResponseData.h */,
+				DB4C49412031223300A52D98 /* CheckResponseData.m */,
+				DB9FD3EE20241EEB0075677A /* NSObject+SafeData.h */,
+				DB9FD3EF20241EEB0075677A /* NSObject+SafeData.m */,
 				DB48755720236F4300A245F4 /* Main.storyboard */,
 				DB48755A20236F4300A245F4 /* Assets.xcassets */,
 				DB48755C20236F4300A245F4 /* LaunchScreen.storyboard */,
 				DB48755F20236F4300A245F4 /* Info.plist */,
+				DB4C493E2031129200A52D98 /* json.txt */,
 				DB48756020236F4300A245F4 /* main.m */,
 			);
 			path = SafeNetDataProcessor;
@@ -238,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB4C493F2031129200A52D98 /* json.txt in Resources */,
 				DB48755E20236F4300A245F4 /* LaunchScreen.storyboard in Resources */,
 				DB48755B20236F4300A245F4 /* Assets.xcassets in Resources */,
 				DB48755920236F4300A245F4 /* Main.storyboard in Resources */,
@@ -268,6 +287,9 @@
 				DB48755620236F4300A245F4 /* ViewController.m in Sources */,
 				DB48756120236F4300A245F4 /* main.m in Sources */,
 				DB48755320236F4300A245F4 /* AppDelegate.m in Sources */,
+				DB4C49422031223300A52D98 /* CheckResponseData.m in Sources */,
+				DB48758520236F6D00A245F4 /* SafeDataProcessor.m in Sources */,
+				DB9FD3F020241EEB0075677A /* NSObject+SafeData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
