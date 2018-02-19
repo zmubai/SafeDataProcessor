@@ -17,6 +17,7 @@
  ...
  返回结果为dstKeyName对应的值
  */
+ ```
 @interface SafeDataProcessor : NSObject
 
 /**
@@ -27,3 +28,4 @@
  */
 + (id)getObjectWithFormmateString:(NSString*)formateString data:(NSDictionary*)dataDictionary;
 @end
+```
