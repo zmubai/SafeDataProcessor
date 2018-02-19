@@ -1,6 +1,9 @@
 # SafeDataProcessor
 网络数据中快捷的获取指定字段的值
-/*
+
+
+ ```
+ /*
  记录目的字段在的层级结构字符串：
  形式如：
  keyName{dstKeyName
@@ -17,7 +20,6 @@
  ...
  返回结果为dstKeyName对应的值
  */
- ```
 @interface SafeDataProcessor : NSObject
 
 /**
